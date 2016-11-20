@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "umd",
+    "target": "es5",
+    "sourceMap": false,
+    "declaration": true,
+    "outDir": "distribution",
+    "removeComments": true,
+    "types": [
+      "node"
+    ]
+  },
+  "exclude": [
+    "node_modules", "distribution"
+  ]
+}

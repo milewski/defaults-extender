@@ -1,0 +1,6 @@
+*
+!*.json
+!*.README.md
+!*.LICENSE
+!distribution
+!test

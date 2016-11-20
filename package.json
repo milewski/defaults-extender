@@ -1,0 +1,40 @@
+{
+  "name": "defaults-extender",
+  "version": "1.0.0",
+  "description": "A different approach for extending Options against Defaults.",
+  "keywords": [
+    "deep",
+    "extender",
+    "extend",
+    "options",
+    "properties",
+    "object-extend"
+  ],
+  "main": "distribution/Extender.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "npm test",
+    "build": "./node_modules/.bin/tsc",
+    "test": "npm run build && ./node_modules/.bin/mocha --compilers js:babel-core/register"
+  },
+  "homepage": "https://github.com/Milewski/defaults-extender",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Milewski/defaults-extender"
+  },
+  "bugs": {
+    "url": "https://github.com/Milewski/defaults-extender/issues"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.48",
+    "babel-core": "^6.18.2",
+    "babel-preset-latest": "^6.16.0",
+    "mocha": "^3.1.2",
+    "typescript": "^2.0.10"
+  }
+}
