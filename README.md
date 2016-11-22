@@ -26,7 +26,7 @@ if you are to tackle with the command parser itself you end up with a "if else" 
 what if you could so something like this:
 
 ```js
-const extender = require('defaults-extender')
+const { extend } = require('defaults-extender')
 
 const defaults = {
     options: {
@@ -38,7 +38,7 @@ const defaults = {
 
 let options = { options : true };
 
-let result = extender.extend(defaults, options);
+let result = extend(defaults, options);
 
 // result in 
 
@@ -65,7 +65,7 @@ let options = {
     }
 }
 
-let result = extender.extend(defaults, options);
+let result = extend(defaults, options);
 
 console.log(result.options.enabled) // undefined
 
