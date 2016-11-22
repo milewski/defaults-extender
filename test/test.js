@@ -1,8 +1,6 @@
-import { Extender } from "../distribution/Extender";
+import { extend } from "../distribution/index";
 
 const assert = require('assert');
-const extender = new Extender();
-
 const defaults = {
     name: 'Hello World',
     one: true,
@@ -53,7 +51,7 @@ describe('Extender', function () {
 
     it('should return an extension of defaults <-> options', () => {
 
-        const result = extender.extend(defaults, {
+        const result = extend(defaults, {
             name: 'Changed',
             one: true,
             two: false,
@@ -73,7 +71,7 @@ describe('Extender', function () {
 
     it('should work with nested objects', () => {
 
-        const result = extender.extend(defaults, {
+        const result = extend(defaults, {
             nested: {
                 one: 'cake',
                 two: {
@@ -92,7 +90,7 @@ describe('Extender', function () {
 
     it('should set the short-handed property correctly', () => {
 
-        const result = extender.extend(defaults, {
+        const result = extend(defaults, {
             optimization: false,
             engine: 'node-canvas',
             really: {

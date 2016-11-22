@@ -1,6 +1,6 @@
 *
-!*.json
-!*.README.md
-!*.LICENSE
+!package.json
+!README.md
+!LICENSE
 !distribution
 !test
