@@ -1,6 +1,6 @@
 {
   "name": "defaults-extender",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A different approach for extending Options against Defaults.",
   "author": "Rafael Milewski <rafael.milewski@gmail.com>",
   "keywords": [
