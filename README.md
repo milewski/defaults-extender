@@ -26,7 +26,8 @@ if you are to tackle with the command parser itself you end up with a "if else" 
 what if you could so something like this:
 
 ```js
-const { extend } = require('defaults-extender')
+const extend = require('defaults-extender')
+//or const { extend } = require('defaults-extender')
 
 const defaults = {
     options: {

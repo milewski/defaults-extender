@@ -1,6 +1,6 @@
-export const extend = <A, B>(defaults: {}, options: {}): A & B => {
+const extend = <A, B>(defaults: {}, options: {}): A & B => {
 
-    const object = {}
+    const object = {};
     const optionsType = typeof options;
 
     Object.keys(defaults).map(property => {
@@ -24,14 +24,17 @@ export const extend = <A, B>(defaults: {}, options: {}): A & B => {
             return object;
         }
 
-        return object[property] = options[property] !== undefined ? options[property] : defaults[property]
+        return object[property] = options[property] !== undefined ? options[property] : defaults[property];
 
     });
 
     return <A & B>object;
 
-}
+};
 
 const first = (object: {}): string => {
     for (let property in object) return property;
-}
+};
+
+export { extend };
+export default extend;
