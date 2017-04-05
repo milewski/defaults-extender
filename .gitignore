@@ -5,6 +5,4 @@ node_modules
 *.map
 *.js
 !test/**
-!webpack.config.js
-npm-debug.log
-distribution
+*.log

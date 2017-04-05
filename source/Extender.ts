@@ -1,4 +1,4 @@
-export const extend = <A, B>(defaults: {}, options: {}): A & B => {
+export const extend = <A, B>(defaults: A, options: B): A & B => {
 
     const object = {}
     const optionsType = typeof options;

@@ -1,9 +1,12 @@
 # Defaults-Extender
 
+[![Build Status](https://travis-ci.org/Milewski/defaults-extender.svg?branch=master)](https://travis-ci.org/Milewski/defaults-extender)
+[![npm version](https://badge.fury.io/js/defaults-extender.svg)](https://badge.fury.io/js/defaults-extender)
+[![npm downloads](https://img.shields.io/npm/dm/defaults-extender.svg)](https://www.npmjs.com/package/defaults-extender)
+[![dependencies](https://david-dm.org/Milewski/defaults-extender.svg)](https://www.npmjs.com/package/defaults-extender)
+
 Fast, tiny and useful utility to extend options against defaults.
 
-[![Build Status](https://travis-ci.org/Milewski/defaults-extender.svg?branch=master)](https://travis-ci.org/Milewski/defaults-extender)
-  
 ## Installation
 
 ```bash
@@ -86,3 +89,7 @@ To build from github, first clone this repo locally then run `npm run build`:
 ```bash
 $ npm run build
 ```
+
+## License 
+
+[MIT](LICENSE)

@@ -1,44 +1,40 @@
 {
   "name": "defaults-extender",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A different approach for extending Options against Defaults.",
-  "author": "Rafael Milewski <rafael.milewski@gmail.com>",
+  "author": "Rafael @Milewski",
   "keywords": [
     "deep",
     "extender",
     "extend",
     "options",
     "properties",
-    "object-extend"
+    "object-extend",
+    "cli",
+    "parser"
   ],
-  "main": "distribution/index.js",
+  "main": "source/Extender.js",
+  "files": [
+    "declarations"
+  ],
   "license": "MIT",
   "scripts": {
     "prepublish": "npm test",
-    "build": "./node_modules/.bin/tsc && npm run webpack",
-    "webpack": "./node_modules/.bin/webpack",
-    "test": "npm run build && ./node_modules/.bin/mocha --compilers js:babel-core/register"
+    "build": "tsc",
+    "test": "npm run build && mocha"
   },
   "homepage": "https://github.com/Milewski/defaults-extender",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Milewski/defaults-extender"
+    "url": "git+https://github.com/Milewski/defaults-extender.git"
   },
   "bugs": {
     "url": "https://github.com/Milewski/defaults-extender/issues"
   },
-  "babel": {
-    "presets": [
-      "latest"
-    ]
-  },
   "devDependencies": {
-    "@types/node": "^6.0.48",
-    "@types/webpack": "^2.0.0",
-    "babel-core": "^6.18.2",
-    "babel-preset-latest": "^6.16.0",
-    "mocha": "^3.1.2",
-    "typescript": "^2.0.10",
-    "webpack": "^1.13.3"
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.12",
+    "mocha": "^3.2.0",
+    "typescript": "^2.2.2"
   }
 }
