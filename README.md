@@ -1,4 +1,4 @@
-# Defaults-Extender
+# defaults-extender
 
 [![Build Status](https://travis-ci.org/Milewski/defaults-extender.svg?branch=master)](https://travis-ci.org/Milewski/defaults-extender)
 [![npm version](https://badge.fury.io/js/defaults-extender.svg)](https://badge.fury.io/js/defaults-extender)
