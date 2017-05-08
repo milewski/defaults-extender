@@ -58,7 +58,7 @@ result = {
 
 so, all what you need to do is specify your defaults, and adhere to it, it will be how your final output will look like. for example this will not work:
 
-```
+```js
 const defaults = {
     options: false
 }
