@@ -1,5 +1,7 @@
 # defaults-extender
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/milewski/defaults-extender.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/Milewski/defaults-extender.svg?branch=master)](https://travis-ci.org/Milewski/defaults-extender)
 [![npm version](https://badge.fury.io/js/defaults-extender.svg)](https://badge.fury.io/js/defaults-extender)
 [![npm downloads](https://img.shields.io/npm/dm/defaults-extender.svg)](https://www.npmjs.com/package/defaults-extender)
