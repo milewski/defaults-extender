@@ -1,9 +1,7 @@
 # defaults-extender
 
-[![Build Status](https://travis-ci.org/milewski/defaults-extender.svg?branch=master)](https://travis-ci.org/Milewski/defaults-extender)
 [![npm version](https://badge.fury.io/js/defaults-extender.svg)](https://badge.fury.io/js/defaults-extender)
 [![npm downloads](https://img.shields.io/npm/dm/defaults-extender.svg)](https://www.npmjs.com/package/defaults-extender)
-[![dependencies](https://david-dm.org/milewski/defaults-extender.svg)](https://www.npmjs.com/package/defaults-extender)
 
 Fast, tiny and useful utility to extend options against defaults.
 
